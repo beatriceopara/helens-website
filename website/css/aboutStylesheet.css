@@ -31,6 +31,14 @@ header nav {
   margin-right: 35px;
 }
 
+header nav a.active {
+  color:CornflowerBlue;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: cornflowerblue;
+}
 .social-media-nav {
   float: right;
   margin-left: 10px;
@@ -51,7 +59,8 @@ a {
 }
 
 #aboutBanner {
-  margin: 50px;
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
   background-color: white;
   text-align: center;
 }
@@ -69,8 +78,8 @@ a {
 }
 
 .content {
-  margin: 50px;
   background-color: white;
+  padding: 20px;
 }
 
 footer {
@@ -82,15 +91,33 @@ footer {
 
 img {
   width: 380px;
-  height: 430px;
+  height: 100%;
 }
 
 .container-left {
   display:flex;
   flex-direction: row-reverse;
   /* makes child elements left to right*/
+  margin-bottom: 50px;
+}
+
+.container-left .content {
+  margin: 0 0 0 50px;
 }
 
 .container-right {
   display:flex;
+  margin-bottom: 50px;
+}
+
+.container-right .content {
+  margin: 0 50px 0 0;
+}
+.pageBody {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p  {
+  line-height: 35px;
 }
