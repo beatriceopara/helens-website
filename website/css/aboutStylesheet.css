@@ -1,0 +1,96 @@
+body {
+  background-color: CornflowerBlue;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 100px;
+    /* TIP: Add padding top when using fixed nav.
+    The padding padding/margin take up space that would occupy the header.*/
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  overflow: hidden;
+  /* TIP: how the tag clips content */
+  top: 0;
+  left: 0;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  /* TIP: added margin 0 to make items aligned when using float to make h1 and nav aligned */
+  margin-left: 35px;
+  font-family: 'Pacifico', cursive;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.social-media-nav {
+  float: right;
+  margin-left: 10px;
+}
+
+header a {
+  text-decoration: none;
+  padding: 0 10px 0 5px;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  /*TIP: takes the property from the parent element */
+}
+
+#aboutBanner {
+  margin: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.aboutTitle h1 {
+  font-size: 45px;
+  margin: 25px;
+  padding-top: 15px;
+}
+
+.aboutTitle h3 {
+  font-size: 30px;
+  margin: 12px;
+  padding: 10px;
+}
+
+.content {
+  margin: 50px;
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+  bottom: 0;
+  height: 10px;
+  width: 100%;
+}
+
+img {
+  width: 380px;
+  height: 430px;
+}
+
+.container-left {
+  display:flex;
+  flex-direction: row-reverse;
+  /* makes child elements left to right*/
+}
+
+.container-right {
+  display:flex;
+}
