@@ -1,0 +1,86 @@
+body {
+  background-color: CornflowerBlue;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 100px;
+    /* TIP: Add padding top when using fixed nav.
+    The padding padding/margin take up space that would occupy the header.*/
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  overflow: hidden;
+  /* TIP: how the tag clips content */
+  top: 0;
+  left: 0;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  /* TIP: added margin 0 to make items aligned when using float to make h1 and nav aligned */
+  margin-left: 35px;
+  font-family: 'Pacifico', cursive;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.social-media-nav {
+  float: right;
+  margin-left: 10px;
+}
+
+header a {
+  text-decoration: none;
+  padding: 0 10px 0 5px;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  /*TIP: takes the property from the parent element */
+}
+
+#galleryBanner {
+  margin: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.galleryTitle h1 {
+  font-size: 45px;
+  margin: 25px;
+  padding-top: 15px;
+}
+
+/* .content {
+  margin: 50px;
+  background-color: white;
+} */
+
+.gallery {
+  display: grid;
+}
+
+
+
+img {
+  width: 380px;
+  height: 430px;
+}
+
+/* footer {
+  background-color: white;
+  bottom: 0;
+  height: 10px;
+  width: 100%;
+} */
